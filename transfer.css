@@ -1,0 +1,27 @@
+table{
+    text-align: left;
+    width: auto;
+}
+
+.amout{
+width: 200px;
+}
+
+.rongbang1{
+    width: 150px;
+}
+
+.rongbang{
+    width: 120px;
+}
+
+.convert{
+    background-color: mediumpurple;
+    color: white;
+    font-size: large;
+    width: 100px;
+    border: blue;
+}
+.mauchu{
+    color: blue;
+}

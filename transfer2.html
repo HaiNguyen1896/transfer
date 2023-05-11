@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="transfer.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+  <table>
+    <!--Dòng 1-->
+    <tr>
+      <th>Amount</th>
+      <th>From currency</th>
+      <th>To currency</th>
+    </tr>
+    <!-- Dòng 2 -->
+    <tr>
+      <td class="amout"><input type="text" name="amount" id="value"></td>
+      <td class="rongbang1">
+        <select name="frCurr" id="frCurr" class="rongbang">
+          <option value = "USD">USD</option>
+          <option value = "VND">VND</option>
+        </select>
+      </td>
+      <td class="rongbang1">
+        <select name="toCurr" id="toCurr" class="rongbang">
+          <option value = "USD">USD</option>
+          <option value = "VND">VND</option>
+        </select>
+      </td>
+      <td><button onclick="doS()" class="convert">convert</button> </td>
+    </tr>
+  </table>
+  <p id="result" class="mauchu"></p>
+</body>
+</html>
+<script src="transfer.js">
+</script>
+
+
+
